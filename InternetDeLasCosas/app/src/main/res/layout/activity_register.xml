@@ -120,7 +120,7 @@
         android:text="Correo Institucional"
         app:layout_constraintRight_toLeftOf="@id/GL4V"
         app:layout_constraintLeft_toRightOf="@id/GL3V"
-        app:layout_constraintTop_toBottomOf="@id/GL1H"
+        app:layout_constraintTop_toBottomOf="@id/GL2H"
         />
 
     <TextView
@@ -131,17 +131,16 @@
         android:text="Contraseña "
         app:layout_constraintLeft_toRightOf="@id/GL3V"
         app:layout_constraintRight_toLeftOf="@id/GL4V"
-        app:layout_constraintTop_toBottomOf="@id/GL1H" />
+        app:layout_constraintTop_toBottomOf="@id/GL2H" />
 
     <TextView
         android:id="@+id/T3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
         android:text="Confirmar "
         app:layout_constraintLeft_toRightOf="@id/GL3V"
         app:layout_constraintRight_toLeftOf="@id/GL4V"
-        app:layout_constraintTop_toBottomOf="@id/GL1H" />
+        app:layout_constraintTop_toBottomOf="@id/GL3H" />
 
     <Button
         android:id="@+id/B1"
@@ -153,5 +152,23 @@
         app:layout_constraintLeft_toRightOf="@id/GL3V"
         app:layout_constraintRight_toLeftOf="@id/GL4V"
         />
+
+    <ImageView
+        android:id="@+id/tec"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        app:srcCompat="@drawable/logo_tec"
+        tools:layout_editor_absoluteX="-27dp"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <ImageView
+        android:id="@+id/SEP"
+        android:layout_width="252dp"
+        android:layout_height="141dp"
+        android:background="#FEFEFE"
+        app:srcCompat="@drawable/sep_color"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="586dp"
+        tools:srcCompat="@drawable/sep" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
