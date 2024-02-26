@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Register">
 
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/GL1H"
         android:orientation="horizontal"
@@ -111,5 +112,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintGuide_percent="0.9"/>
+
+    <TextView
+        android:id="@+id/T1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Correo Institucional"
+        app:layout_constraintRight_toLeftOf="@id/GL4V"
+        app:layout_constraintLeft_toRightOf="@id/GL3V"
+        app:layout_constraintTop_toBottomOf="@id/GL1H"
+        />
+
+    <TextView
+        android:id="@+id/T2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Contraseña "
+        app:layout_constraintLeft_toRightOf="@id/GL3V"
+        app:layout_constraintRight_toLeftOf="@id/GL4V"
+        app:layout_constraintTop_toBottomOf="@id/GL1H" />
+
+    <TextView
+        android:id="@+id/T3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Confirmar "
+        app:layout_constraintLeft_toRightOf="@id/GL3V"
+        app:layout_constraintRight_toLeftOf="@id/GL4V"
+        app:layout_constraintTop_toBottomOf="@id/GL1H" />
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Crear Registro"
+        app:layout_constraintTop_toBottomOf="@id/GL4H"
+        app:layout_constraintTop_toStartOf="@+id/GL4V"
+        app:layout_constraintLeft_toRightOf="@id/GL3V"
+        app:layout_constraintRight_toLeftOf="@id/GL4V"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
