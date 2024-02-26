@@ -5,6 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="248dp"
+        app:layout_constraintLeft_toRightOf="@id/GL5H"/>
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/GL1H"
         android:orientation="horizontal"
@@ -108,5 +118,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintGuide_percent="0.9"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="199dp"
+        app:layout_constraintLeft_toRightOf="@id/GL4H"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="80dp"
+        app:layout_constraintLeft_toRightOf="@id/GL2H"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="113dp"
+        app:layout_constraintLeft_toRightOf="@id/GL3H"/>
     />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
